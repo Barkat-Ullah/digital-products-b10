@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu-container{
+    background-color: rgb(88, 86, 86);
+    padding: 20px;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo-picture{
+    width: 120px;
+}
+.menus{display: flex;
+
+}
+.item{
+    margin-right:13px;
+    padding: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.item:hover{
+    color: chartreuse;
+    transition: 0.6s;
+}
+.banner-img{
+   width:  300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,#080808,#000);
+    color: white;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.discription{
+    font-size:22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: chartreuse;
+    color: rgb(90, 88, 87);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    color:rgb(218, 216, 221);
+    background-color: rgb(245, 4, 208);
+    transition: 0.8s;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding: 20px;
+    font-size: 55px;
+    font-weight: bold;
+    font-family: serif;
+}
+.header{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.paragrap{
+    font-size:17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+}
+.box{
+    width: 280px;
+    height: 230;
+    margin: 10px;
+    box-shadow: 4px 4px 25px greenyellow;
+    background-color: #000;
+    text-align: center;
+    padding: 15px;
+    color: azure;
+    border-radius: 15px;
+
+
+}
+.icon{
+    width: 70px;
+}
+.box-btn{
+    margin-top: 10px;
+
+}
+.box-title{
+    padding: 10px;
+
+}
+.box-discription{
+    padding: 5px;
+    font-family: sans-serif;
+}
+.section-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 20px;
+    background-image: url(./images/background.png),linear-gradient(45deg,rgb(20, 18, 18),black);
+    box-shadow: 4px 4px 25px;
+    border-radius: 8px;
+   
+
+}
+
